@@ -455,7 +455,33 @@ header {
     width: 100%;
     object-fit: contain;  
 }
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+}
 
+.encabezado__reserva1 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+.encabezado__reserva2 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+.encabezado__reserva3 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+
+
+/* ------------------------------------------ INICIO DE MEDIA QUERY ------------------------------------- */
 @media screen and (max-width: 1023px) {
     header {
         display: flex;
