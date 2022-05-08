@@ -486,7 +486,7 @@ header {
     header {
         display: flex;
         flex-direction: column;
-        max-width: 768px;
+        /* max-width: 768px; */
     }
     .logo {
         margin-left: 18rem;
@@ -649,7 +649,7 @@ header {
         box-sizing: border-box;
     }
     .header {
-       max-width: 320px;
+       /* max-width: 320px; */
     }
     header .logo {
         position: relative;
