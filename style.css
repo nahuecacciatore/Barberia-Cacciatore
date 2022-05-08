@@ -45,6 +45,7 @@ header {
     display: flex;
     justify-content: flex-start;
     margin-left: 4rem;
+    margin-top: 1rem;
     }
 
     .logo {
@@ -62,6 +63,7 @@ header {
     display: flex;
     list-style-type: none;
     gap: 8px;
+    margin-bottom: 0%;
 }
 
 .paginas__index {
