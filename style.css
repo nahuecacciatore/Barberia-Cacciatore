@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    background-color: #0f161b;
+    background-color: #0f161b ;
     position: fixed;
     top: 0;
     left: 0;
@@ -46,14 +46,16 @@ header {
     justify-content: flex-start;
     margin-left: 4rem;
     margin-top: 1rem;
+    margin-top: 0.5rem;
     }
 
-    .logo {
-    background-color: #d29d61;
+    .navbar-brand {
+    background-color: #d29d61 ;
     border: 5px solid rgb(122, 106, 83);
     border-radius: 10px;
-    height: 50px;
+    height: 70px;
     margin-left: 80px;
+
 }
 
 .paginas {
@@ -66,14 +68,14 @@ header {
     margin-bottom: 0%;
 }
 
-.paginas__index {
-    background-color: #d29d61 ;
+.nav-item {
+    background-color: #d29d61;
     margin: 2px;
     border: 3px solid rgb(122, 106, 83) ;
-    padding: 10px;
+    padding: 3px;
     transition: transform 1.2s;
 }
-.paginas__index:hover {
+.nav-item:hover {
     transform: scale(1.1);
 }
 
@@ -484,7 +486,7 @@ header {
 
 
 /* ------------------------------------------ INICIO DE MEDIA QUERY ------------------------------------- */
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 989px) {
     header {
         display: flex;
         flex-direction: column;
