@@ -45,13 +45,14 @@ header {
     display: flex;
     justify-content: flex-start;
     margin-left: 4rem;
+    margin-top: 0.5rem;
     }
 
-    .logo {
+    .navbar-brand {
     background-color: #d29d61;
     border: 5px solid rgb(122, 106, 83);
     border-radius: 10px;
-    height: 50px;
+    height: 70px;
     margin-left: 80px;
 }
 
@@ -64,14 +65,14 @@ header {
     gap: 8px;
 }
 
-.paginas__index {
+.nav-item {
     background-color: #d29d61 ;
     margin: 2px;
     border: 3px solid rgb(122, 106, 83) ;
-    padding: 10px;
+    padding: 3px;
     transition: transform 1.2s;
 }
-.paginas__index:hover {
+.nav-item:hover {
     transform: scale(1.1);
 }
 
