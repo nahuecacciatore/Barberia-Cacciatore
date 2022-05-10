@@ -6,19 +6,19 @@
 
 @font-face {
     font-family: Mystery Quest;
-    src: url(/css/Generica.otf);
+    src: url(css/Generica.otf);
 }
 @font-face {
     font-family: Austein;
-    src: url(/css/Austein.otf);
+    src: url(css/Austein.otf);
 }
 @font-face {
     font-family: Buttershine;
-    src: url(/css/BUTTERSHINE\ SCRIPT.ttf);
+    src: url(css/BUTTERSHINE\ SCRIPT.ttf);
 }
 @font-face {
     font-family: Caviar;
-    src: url(./css/CaviarDreams.ttf);
+    src: url(css/CaviarDreams.ttf);
 }
 body {
     font-family: "Mystery Quest", cursive;
@@ -56,6 +56,9 @@ header {
     height: 70px;
     margin-left: 80px;
 
+}
+.navbar-toggler {
+    filter: invert(1);
 }
 
 .paginas {
