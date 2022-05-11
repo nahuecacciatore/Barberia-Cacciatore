@@ -558,7 +558,7 @@ header {
 
 
 /* ------------------------------------------ INICIO DE MEDIA QUERY ------------------------------------- */
-@media screen and (max-width: 989px) {
+@media screen and (max-width: 1023px) {
     header {
         display: flex;
         flex-direction: column;
@@ -863,8 +863,8 @@ header {
     .whatsapp2 {
         padding: 0;
         position: relative;
-        top: 147.5rem;
-        left: 1rem;
+        top: 150.5rem;
+        left: 0rem;
     }
     .texas {
         right: 1rem;
@@ -872,8 +872,10 @@ header {
         height: 5%;
     }
     .whatsapp1 {
+        padding: 0;
+        position: relative;
         left: 0;
-        bottom: 27.5rem;
+        top: 34.5rem;
     }
     .section__servicios{
         top: 8rem;
@@ -891,8 +893,10 @@ header {
         font-size: 50px;
     }
     .whatsapp3 {
+        padding: 0;
+        position: relative;
         left: 0;
-        bottom: 27.5rem;
+        top: 50rem;
     }
     .section__reserva {
         top: 8rem;
@@ -901,7 +905,30 @@ header {
         font-size: 25px;
     }
     .whatsapp4 {
+        padding: 0;
+        position: relative;
         left: 0;
-        bottom: 27.5rem; 
+        top: 99rem;
+    }
+    .botones {
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-top: 10rem;
+    }
+    .botones__3 {
+        width: 15rem;
+    }
+    .formulario {
+        margin: auto;
+        width: 16rem;
+        margin-bottom: 2rem;
+    }
+    .input-group {
+        flex-direction: column;
+    }
+    
+    .form-control {
+        width: auto !important;
     }
 }
