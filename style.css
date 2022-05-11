@@ -6,19 +6,19 @@
 
 @font-face {
     font-family: Mystery Quest;
-    src: url(/css/Generica.otf);
+    src: url(css/Generica.otf);
 }
 @font-face {
     font-family: Austein;
-    src: url(/css/Austein.otf);
+    src: url(css/Austein.otf);
 }
 @font-face {
     font-family: Buttershine;
-    src: url(/css/BUTTERSHINE\ SCRIPT.ttf);
+    src: url(css/BUTTERSHINE\ SCRIPT.ttf);
 }
 @font-face {
     font-family: Caviar;
-    src: url(./css/CaviarDreams.ttf);
+    src: url(css/CaviarDreams.ttf);
 }
 body {
     font-family: "Mystery Quest", cursive;
@@ -45,6 +45,7 @@ header {
     display: flex;
     justify-content: flex-start;
     margin-left: 4rem;
+    margin-top: 1rem;
     margin-top: 0.5rem;
     }
 
@@ -83,6 +84,7 @@ header {
     display: flex;
     list-style-type: none;
     gap: 8px;
+    margin-bottom: 0%;
 }
 
 .nav-item {
@@ -404,8 +406,8 @@ header {
     text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
     color: #D29D61;
     position: relative; 
-    bottom: 50px;
-    left: 38rem; 
+    bottom: 49px;
+    left: 39rem; 
 }
 .producto__oferta2 {
     font-family: Buttershine;
@@ -413,7 +415,7 @@ header {
     text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
     color: #D29D61;
     position: relative;
-    bottom: 500px; 
+    bottom: 530px; 
     left: 26rem;   
 }
 .producto__oferta3 {
@@ -422,7 +424,7 @@ header {
     text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
     color: #D29D61;
     position: relative; 
-    bottom: 580px;
+    bottom: 620px;
     left: 50rem;    
 }
 .producto__div {
