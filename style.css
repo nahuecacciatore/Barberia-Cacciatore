@@ -527,7 +527,7 @@ header {
     header {
         display: flex;
         flex-direction: column;
-        max-width: 768px;
+        
     }
     .logo {
         margin-left: 18rem;
@@ -689,9 +689,6 @@ header {
         margin: 0;
         box-sizing: border-box;
     }
-    .header {
-       max-width: 320px;
-    }
     header .logo {
         position: relative;
         right: 14rem;
@@ -746,7 +743,7 @@ header {
     }
     .final__index {
         position: relative;
-        right: 13rem;
+        right: 1rem;
     }
     .final__div{
         display: flex;
