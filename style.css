@@ -56,6 +56,9 @@ header {
     margin-left: 80px;
 
 }
+    .navbar-toggler {
+        filter: invert(1);
+    }
 
 .paginas {
     text-align: right;
@@ -69,9 +72,11 @@ header {
 .nav-item {
     background-color: #d29d61;
     margin: 2px;
+    margin-right: 0.5rem;
     border: 3px solid rgb(122, 106, 83) ;
     padding: 3px;
     transition: transform 1.2s;
+    
 }
 .nav-item:hover {
     transform: scale(1.1);
@@ -480,6 +485,40 @@ header {
     border: 3px solid rgb(122, 106, 83) ;
     padding: 4rem;
     margin-top: 6rem;
+}
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+.botones__1 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    font-size: 20px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+    
+}
+.botones__2 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    font-size: 20px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+    
+}
+.botones__3 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    font-size: 17px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 20rem;
+    text-align: center;
+    
 }
 
 
