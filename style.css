@@ -59,7 +59,23 @@ header {
     .navbar-toggler {
         filter: invert(1);
     }
-
+.formulario {
+    background-color: #d29d61 ;
+    border: 5px solid rgb(122, 106, 83);
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 400px;
+    box-shadow: 7px 13px 37px #000;
+}
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
 .paginas {
     text-align: right;
     font-weight: bold;
@@ -419,6 +435,7 @@ header {
     border: 3px solid rgb(122, 106, 83) ;
     padding: 10px;
     width: 20%;
+    box-shadow: 7px 13px 37px #000;
 }
 .producto__div p {
     font-family: Caviar;
@@ -435,6 +452,7 @@ header {
     border: 3px solid rgb(122, 106, 83) ;
     padding: 10px;
     width: 15%;
+    box-shadow: 7px 13px 37px #000;
 }
 .producto__div--2 p {
     font-family: Caviar;
@@ -489,6 +507,8 @@ header {
 .botones {
     display: flex;
     justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 .botones__1 {
     background-color: #d29d61 ;
@@ -498,6 +518,7 @@ header {
     border-radius: 10px;
     width: 15rem;
     text-align: center;
+    box-shadow: 7px 13px 37px #000;
     
 }
 .botones__2 {
@@ -508,18 +529,30 @@ header {
     border-radius: 10px;
     width: 15rem;
     text-align: center;
+    box-shadow: 7px 13px 37px #000;
     
 }
 .botones__3 {
     background-color: #d29d61 ;
     border: 3px solid rgb(122, 106, 83) ;
-    font-size: 17px;
+    font-size: 20px;
     padding: 2rem;
     border-radius: 10px;
     width: 20rem;
     text-align: center;
+    box-shadow: 7px 13px 37px #000;
     
 }
+.jam-write {
+    font-size: 40px;
+}
+.jam-calendar {
+    font-size: 40px;
+}
+.jam-check {
+    font-size: 40px;
+}
+
 
 
 /* ------------------------------------------ INICIO DE MEDIA QUERY ------------------------------------- */
