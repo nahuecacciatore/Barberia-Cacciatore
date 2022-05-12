@@ -77,6 +77,35 @@ header {
 .input-group {
     margin-bottom: 20px;
 }
+.informacion {
+    font-size: 200px;
+    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
+    font-family: Austein;
+    color: #D29D61;
+    text-align: center;
+    text-decoration: underline;
+}
+.cursos {  
+    margin: 50px;
+    margin-bottom: 0 !important;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    background-image: url(./Imagenes/logomafia.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cursos__titulo {
+    font-size: 150px;
+    text-align: center;
+    background-color: rgba(48, 57, 62, 0.863);
+}
+.cursos__div {
+    background-color: rgba(48, 57, 62, 0.863);
+    display: flex;
+}
 .paginas {
     text-align: right;
     font-weight: bold;
