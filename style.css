@@ -128,9 +128,11 @@ header {
 }
 .experiencia__hb {
     position: relative;
+    margin: 2rem;
+    height: 500px;
 }
 .img-fluid {
-    position: absolute;
+    /* position: absolute; */
 }
 
 .paginas {
