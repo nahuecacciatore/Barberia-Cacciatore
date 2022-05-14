@@ -1,3 +1,14 @@
+/* ACA VAN MIS ARCHIVOS PARCIALES IMPORTADOS */
+/* Los parciales son las diferentes secciones en las que voy a separar mi hoja
+de estilos, SIEMPRE EMPIEZAN CON _ANTES DEL NOMBRE.SCSS */
+/* LAS VARIABLES VAN ARRIBA DE TODO SI O SI!! VAN CON EL SIGNO $
+
+    Como usar variable
+    $mivariable1: valorReutilizar */
+
+
+@import "parciales/_parcial1.scss";
+
 *{
     padding: 0;
     margin: 0;
@@ -87,8 +98,10 @@ header {
 }
 .cursos {  
     margin: 50px;
+    margin-bottom: 0 !important;
     padding-left: 60px;
     padding-right: 60px;
+    padding-bottom: 60px;
     background-image: url(./Imagenes/logomafia.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -113,24 +126,6 @@ header {
 }
 .cursos__div img {
     padding: 20px;
-}
-.titulo__experiencia {
-    font-size: 120px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    font-family: Austein;
-    color: #D29D61;
-    text-align: center;
-    text-decoration: underline;
-    margin: 2rem;
-}
-.experiencia {
-    display: flex;
-}
-.experiencia__hb {
-    position: relative;
-}
-.img-fluid {
-    position: absolute;
 }
 
 .paginas {
