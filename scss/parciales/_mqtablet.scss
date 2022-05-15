@@ -49,6 +49,28 @@
     .titulo__experiencia {
         font-size: 100px;
     }
+    .experiencia {
+        flex-direction: column;
+    }
+    .experiencia div {
+        text-align: center;
+    }
+    .experiencia h4 {
+        font-size: 100px;
+    }
+    .experiencia p {
+        padding: 2rem;
+    }
+    .tbj__div {
+        flex-direction: column;
+    }
+    .tbj__contenedor {
+        text-align: center;
+    }
+    .btn {
+        left: 20rem;
+        bottom: 4rem;
+    }
 
     /* ------------------------------------------- INDEX ---------------------------------------------- */
 
