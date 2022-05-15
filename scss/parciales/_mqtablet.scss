@@ -1,0 +1,160 @@
+@media screen and (max-width: 1023px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .logo {
+        margin-left: 18rem;
+    }
+    .paginas {
+        display: flex;
+        justify-content: space-around;
+    }
+    .final__div {
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;  
+    }
+
+
+    /* ------------------------------------------- INDEX ---------------------------------------------- */
+    .presentacion {
+        position: relative;
+        bottom: 15rem;
+        
+    }
+    .presentacion__titulo { 
+       font-size: 50px;
+    }
+    .presentacion__subtitulo {
+        font-size: 30px;
+    }
+    .presentacion__parrafo {
+        font-size: 20px;
+    }
+
+
+    /* ------------------------------------------- INDEX ---------------------------------------------- */
+
+
+
+    /* ------------------------------------------- SERVICIOS ---------------------------------------------- */
+    
+    .section__servicios {
+        top: 8rem;
+    }
+    .section__servicios--titulo {
+        font-size: 50px;
+    }
+
+
+    /* ------------------------------------------- SERVICIOS ---------------------------------------------- */
+
+
+
+    /* ------------------------------------------- PRODUCTOS ---------------------------------------------- */
+
+    .section__productos {
+        top: 8rem;
+    }
+    .section__productos--titulo {
+        font-size: 60px;
+    }
+    .section__productos p {
+        font-size: 15px;
+    }
+    .victory {
+        margin-top: 8rem;
+    }
+    .cabello {
+        bottom: 3rem;
+        right: 32rem;
+        font-size: 150px;
+    }
+    .producto__titulo {
+        font-size: 80px;
+        padding-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    .producto__parrafo {
+        font-size: 15px;
+    }
+    .producto__titulo--2 {
+        font-size: 80px;
+        margin-bottom: 1rem;
+    }
+    .producto__parrafo--2 {
+        font-size: 15px;
+    }
+    .ofertas {
+        left: 6rem;
+        font-size: 120px;
+    }
+    .producto__oferta2 {
+        bottom: 33rem;
+        left: 2rem ;
+    }
+    .producto__oferta3 {
+        bottom: 37.5rem;
+        left: 25rem;
+    }
+    .producto__oferta {
+        bottom: 2rem;
+        left: 13rem;
+    }
+    .producto__div {
+        width: 140px;
+        left: 33rem;
+        bottom: 35rem;
+    }
+    .producto__div p{
+        font-size: 15px;
+    }
+    .texas {
+        right: 2rem;
+        bottom: 15rem;
+        height: 10%;
+    }
+    .producto__div--2 {
+        width: 140px;
+        bottom: 28rem;
+        left: 5rem;
+    }
+    .producto__div--2 p {
+        font-size: 15px;
+    }
+    .whatsapp2 {
+        right: 25rem;
+        bottom: 1.55rem;
+    }
+
+    /* ------------------------------------------- PRODUCTOS ---------------------------------------------- */
+ 
+
+
+    /* ------------------------------------------- UBICACION ---------------------------------------------- */
+
+    .section__ubicacion {
+        top: 8rem;
+    }
+    .section__ubicacion--titulo {
+        font-size: 50px;
+    }
+
+
+/* ------------------------------------------- UBICACION ---------------------------------------------- */
+
+
+ /* ------------------------------------------- RESERVA ---------------------------------------------- */
+
+    .section__reserva{
+        top: 8rem;
+    }
+    .section__reserva--titulo {
+        font-size: 40px;
+    }
+
+
+    /* ------------------------------------------- RESERVA ---------------------------------------------- */
+}

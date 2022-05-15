@@ -1,0 +1,98 @@
+header {
+    background-color: #0f161b ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.navbar-brand {
+    background-color: #d29d61 ;
+    border: 5px solid rgb(122, 106, 83);
+    border-radius: 10px;
+    height: 70px;
+    margin-left: 80px;
+
+}
+    .navbar-toggler {
+        filter: invert(1);
+    }
+    .paginas {
+        text-align: right;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex;
+        list-style-type: none;
+        gap: 8px;
+        margin-bottom: 0%;
+    }
+    
+    .nav-item {
+        background-color: #d29d61;
+        margin: 2px;
+        margin-right: 0.5rem;
+        border: 3px solid rgb(122, 106, 83) ;
+        padding: 3px;
+        transition: transform 1.2s;
+        
+    }
+    .nav-item:hover {
+        transform: scale(1.1);
+    }
+    
+    .paginas__servicios {
+        background-color: #d29d61 ;
+        margin: 2px;
+        border: 3px solid rgb(122, 106, 83) ;
+        padding: 10px;
+        transition: transform 1.2s;
+    }
+    .paginas__servicios:hover {
+        transform: scale(1.1); 
+    }
+    .paginas__productos {
+        background-color: #d29d61 ;
+        margin: 2px;
+        border: 3px solid rgb(122, 106, 83) ;
+        padding: 10px;
+        transition: transform 1.2s;
+    }
+    .paginas__productos:hover {
+        transform: scale(1.1); 
+    }
+    .paginas__ubicacion {
+        background-color: #d29d61 ;
+        margin: 2px;
+        border: 3px solid rgb(122, 106, 83) ;
+        padding: 10px;
+        transition: transform 1.2s;
+    }
+    .paginas__ubicacion:hover {
+        transform: scale(1.1);
+    }
+    .paginas__reserva {
+        background-color: #d29d61 ;
+        margin: 2px;
+        margin-right: 10px;
+        border: 3px solid rgb(122, 106, 83) ;
+        padding: 10px;
+        transition: transform 1.2s;
+    }
+    .paginas__reserva:hover {
+        transform: scale(1.1);  
+    }
+    .paginas__enlaces {
+        color: black;
+        text-decoration: none;
+    }
+    
+    
+    .header__open {
+        color: white;
+        text-decoration: none;
+        display: none;
+    }    

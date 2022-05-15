@@ -1,0 +1,115 @@
+.section__reserva {
+    color: white;
+    background-color: rgba(35, 38, 41, 0.7);
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    top: 50px;
+    padding: 50px;
+}
+.section__reserva--titulo {
+    font-size: 100px;
+    font-style: italic;
+    text-decoration: underline;
+}
+.whatsapp4 {
+    display: inline-block;
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 10;
+}
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+}
+
+.encabezado__reserva1 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+.encabezado__reserva2 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+.encabezado__reserva3 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    padding: 4rem;
+    margin-top: 6rem;
+}
+.botones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.botones__1 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    font-size: 20px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.botones__2 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    font-size: 20px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.botones__3 {
+    background-color: #d29d61 ;
+    border: 3px solid rgb(122, 106, 83) ;
+    font-size: 20px;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 20rem;
+    text-align: center;
+    box-shadow: 7px 13px 37px #000;
+    
+}
+.formulario {
+    background-color: #d29d61 ;
+    border: 5px solid rgb(122, 106, 83);
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-bottom: 2rem;
+    width: 400px;
+    box-shadow: 7px 13px 37px #000;
+}
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+.jam-write {
+    font-size: 40px;
+}
+.jam-calendar {
+    font-size: 40px;
+}
+.jam-check {
+    font-size: 40px;
+}

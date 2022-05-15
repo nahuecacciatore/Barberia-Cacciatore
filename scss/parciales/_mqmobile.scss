@@ -1,0 +1,214 @@
+@media screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    header .logo {
+        position: relative;
+        right: 14rem;
+    }
+    .paginas__index {
+        display: none;
+    }
+    .paginas__servicios {
+        width: 60px;
+        height: 40px;
+        font-size: 10px; 
+    }
+    .paginas__productos {
+        width: 60px;
+        height: 40px;
+        font-size: 10px;  
+    }
+    .paginas__ubicacion {
+        width: 60px;
+        height: 40px;
+        font-size: 10px;  
+    }
+    .paginas__reserva {
+        width: 100px;
+        height: 50px;
+        font-size: 10px;     
+    }
+    video {
+        position: relative;
+        top: 13rem;
+    }
+    .presentacion {
+        position: relative;
+        bottom: 3rem;
+        background-color: rgba(0, 0, 0, 0);
+        margin-top: 0.5rem;
+    }
+    .presentacion__titulo {
+        font-size: 30px;
+    }
+    .presentacion__subtitulo {
+        font-size: 15px;
+        margin-bottom: 13rem;
+    }
+    .presentacion__parrafo {
+        font-size: 15px;
+    }
+    .final {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .final__index {
+        position: relative;
+        right: 1rem;
+    }
+    .final__div{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 2rem;
+        padding-top: 0.5rem;
+        margin-left: 0;
+    }
+    .whatsapp {
+        padding: 0;
+        position: relative;
+        top: 4.3rem;
+        left: 0.5rem;
+    }
+    .final__derechos {
+        text-align: end;
+    }
+    .ofertas {
+        font-size: 65px;
+        left: 0rem;
+        top: 10rem;
+    }
+    .cabello {
+        top: 0.5rem;
+        right: 10.5rem;
+        font-size: 80px;
+    }
+    .section__productos--titulo {
+        font-size: 50px;
+    }
+    section p {
+        font-size: 15px;
+    }
+    .producto__titulo {
+        font-size: 50px;
+    }
+    .producto__parrafo {
+        font-size: 13px;
+    }
+    .producto__titulo--2 {
+        font-size: 50px;
+    }
+    .producto__parrafo--2 {
+        font-size: 15px;
+    }
+    .producto__div--2 {
+        font-size: 20px;
+    }
+    .producto__oferta2 {
+        font-size: 30px;
+        left: 0;
+        bottom: 23rem;
+    }
+    .producto__oferta3 {
+        font-size: 30px;
+        left: 8rem;
+        bottom: 25rem;
+    }
+    .producto__oferta {
+      font-size: 30px;
+      left: 3.5rem;
+      bottom: 6rem;  
+    }
+    .producto__div {
+        width: 200px;
+        height: 100px;
+        left: 0.5rem;
+        bottom: 9rem;
+    }
+    .producto__div p {
+        font-size: 13px;
+    }
+    .producto__div--2{ 
+        width: 200px;
+        height: 100px;
+        left: 3.5rem;
+        bottom: 12rem;
+    }
+    .producto__div--2 p {
+        font-size: 13px;
+    }
+    .whatsapp2 {
+        padding: 0;
+        position: relative;
+        top: 150.5rem;
+        left: 0rem;
+    }
+    .texas {
+        right: 1rem;
+        bottom: 15rem;
+        height: 5%;
+    }
+    .whatsapp1 {
+        padding: 0;
+        position: relative;
+        left: 0;
+        top: 34.5rem;
+    }
+    .section__servicios{
+        top: 8rem;
+    }
+    .section__servicios p {
+        font-size: 15px;
+    }
+    .section__servicios--titulo {
+        font-size: 50px;
+    }
+    .section__ubicacion {
+        top: 8rem;
+    }
+    .section__ubicacion--titulo {
+        font-size: 50px;
+    }
+    .whatsapp3 {
+        padding: 0;
+        position: relative;
+        left: 0;
+        top: 50rem;
+    }
+    .section__reserva {
+        top: 8rem;
+    }
+    .section__reserva--titulo {
+        font-size: 25px;
+    }
+    .whatsapp4 {
+        padding: 0;
+        position: relative;
+        left: 0;
+        top: 99rem;
+    }
+    .botones {
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-top: 10rem;
+    }
+    .botones__3 {
+        width: 15rem;
+    }
+    .formulario {
+        margin: auto;
+        width: 16rem;
+        margin-bottom: 2rem;
+    }
+    .input-group {
+        flex-direction: column;
+    }
+    
+    .form-control {
+        width: auto !important;
+    }
+}

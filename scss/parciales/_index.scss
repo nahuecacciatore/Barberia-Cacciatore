@@ -1,0 +1,132 @@
+.video {
+    margin-top: 10%;
+    width: 100%;
+    position: absolute;
+    top: 600%;
+}
+
+.presentacion {
+    background-color: rgba(35, 38, 41, 0.7);
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+    position: relative;
+    bottom: 500px;
+}
+.presentacion__titulo { 
+    font-size: 100px;
+    font-style: italic;
+}
+.presentacion__subtitulo {
+    font-size: 30px;
+
+}
+.presentacion__parrafo {
+    font-size: 15px;
+
+}
+.header__open {
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+
+.whatsapp {
+    display: inline-block;
+    position: fixed;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 10;
+}
+.informacion {
+    font-size: 200px;
+    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
+    font-family: Austein;
+    color: #D29D61;
+    text-align: center;
+    text-decoration: underline;
+}
+.cursos {  
+    margin: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-image: url(./Imagenes/logomafia.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cursos__titulo {
+    font-size: 150px;
+    text-align: center;
+    background-color: rgba(48, 57, 62, 0.911);
+}
+.cursos__div {
+    background-color: rgba(48, 57, 62, 0.911);
+    display: flex;
+}
+.cursos__div h3 {
+    font-size: 60px;
+    font-style: italic;
+}
+.cursos__div p {
+    font-size: 20px;
+}
+.cursos__div img {
+    padding: 20px;
+}
+.titulo__experiencia {
+    font-size: 120px;
+    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
+    font-family: Austein;
+    color: #D29D61;
+    text-align: center;
+    text-decoration: underline;
+    margin: 2rem;
+}
+.experiencia {
+    display: flex;
+}
+.experiencia__hb {
+    position: relative;
+    margin: 2rem;
+    height: 500px;
+}
+.experiencia h4 {
+    font-size: 130px;
+    font-style: italic;
+}
+.experiencia p {
+    font-size: 20px;
+}
+.img-fluid {
+    /* position: absolute; */
+}
+.tbj {
+    width: 100%;
+}
+.tbj__div {
+    display: flex;
+    padding: 4rem;
+}
+.tbj__contenedor {
+    margin-right: 2rem;
+}
+.tbj__contenedor h3 {
+    font-size: 80px;
+}
+.tbj__contenedor p {
+    font-size: 20px;
+}
+.carrusel {
+    height: auto;
+    width: 60%;
+    margin: 100px auto;
+}
+.btn {
+    position: relative;
+    left: 45rem;
+    bottom: 4rem;
+}
