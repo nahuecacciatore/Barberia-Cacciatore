@@ -11,19 +11,24 @@
     color: rgba(255, 255, 255, 0.808);
     position: relative;
     bottom: 500px;
-}
-.presentacion__titulo { 
-    font-size: 100px;
-    font-style: italic;
-}
-.presentacion__subtitulo {
-    font-size: 30px;
 
-}
-.presentacion__parrafo {
-    font-size: 15px;
+    &__titulo { 
+        font-size: 100px;
+        font-style: italic;
+    }
 
+    &__subtitulo {
+        font-size: 30px;
+    
+    }
+
+    &__parrafo {
+        font-size: 15px;
+    }
 }
+
+
+
 .header__open {
     color: white;
     text-decoration: none;

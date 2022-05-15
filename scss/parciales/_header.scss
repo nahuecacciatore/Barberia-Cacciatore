@@ -50,20 +50,24 @@ header {
         border: 3px solid rgb(122, 106, 83) ;
         padding: 10px;
         transition: transform 1.2s;
+
+        .paginas__servicios:hover {
+            transform: scale(1.1); 
+        }
     }
-    .paginas__servicios:hover {
-        transform: scale(1.1); 
-    }
+
     .paginas__productos {
         background-color: #d29d61 ;
         margin: 2px;
         border: 3px solid rgb(122, 106, 83) ;
         padding: 10px;
         transition: transform 1.2s;
+
+        .paginas__productos:hover {
+            transform: scale(1.1); 
+        }
     }
-    .paginas__productos:hover {
-        transform: scale(1.1); 
-    }
+    
     .paginas__ubicacion {
         background-color: #d29d61 ;
         margin: 2px;
