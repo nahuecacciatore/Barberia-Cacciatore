@@ -1,3 +1,8 @@
+/* sintaxis de variables
+    empezar siempre con el signo $
+    nombre  +  valor
+  $miVariable: orange;
+ */
 @font-face {
   font-family: Mystery Quest;
   src: url(css/Generica.otf);
@@ -752,6 +757,19 @@ body {
   }
   .presentacion__parrafo {
     font-size: 20px;
+  }
+  .informacion {
+    font-size: 150px;
+  }
+  .cursos__titulo {
+    font-size: 100px;
+  }
+  .cursos__div {
+    flex-direction: column;
+    text-align: center;
+  }
+  .cursos {
+    background-image: none;
   }
   /* ------------------------------------------- INDEX ---------------------------------------------- */
   /* ------------------------------------------- SERVICIOS ---------------------------------------------- */
