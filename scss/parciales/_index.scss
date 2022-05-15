@@ -57,7 +57,7 @@
     margin: 50px;
     padding-left: 60px;
     padding-right: 60px;
-    background-image: url(./Imagenes/logomafia.svg);
+    background-image: url(../Imagenes/logomafia.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -80,7 +80,8 @@
     font-size: 20px;
 }
 .cursos__div img {
-    padding: 20px;
+    margin: 20px;
+    box-shadow: 7px 13px 37px #000;
 }
 .titulo__experiencia {
     font-size: 120px;
@@ -98,6 +99,7 @@
     position: relative;
     margin: 2rem;
     height: 500px;
+    box-shadow: 7px 13px 37px #000;
 }
 .experiencia h4 {
     font-size: 130px;
@@ -125,6 +127,9 @@
 .tbj__contenedor p {
     font-size: 20px;
 }
+.tbj__div img {
+    box-shadow: 7px 13px 37px #000;
+}
 .carrusel {
     height: auto;
     width: 60%;
@@ -134,4 +139,5 @@
     position: relative;
     left: 45rem;
     bottom: 4rem;
+    box-shadow: 7px 13px 37px #000;
 }

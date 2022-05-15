@@ -8,7 +8,51 @@
         font-size: 80px;
     }
     .cursos__titulo {
-        font-size: 60px;   
+        font-size: 60px;
+        text-align: center;   
+    }
+    .cursos__div {
+        align-items: center;
+    }
+    .cursos__div img {
+        width: 300px;
+        height: 280px;
+    }
+    .cursos__div p {
+        font-size: 15px;
+    }
+    .tbj__contenedor h3 {
+        font-size: 30px;
+    }
+    .titulo__experiencia {
+        font-size: 50px;
+    }
+    .experiencia__hb {
+        height: 300px;
+    }
+    .img-fluid {
+        width: 250px;
+    }
+    .experiencia h4 {
+        font-size: 50px;
+    }
+    .experiencia p {
+        font-size: 15px;
+    }
+    .tbj__div {
+        padding-top: 0;
+        padding-bottom: 0%;
+    }
+    .tbj__contenedor h3 {
+        padding-bottom: 1rem;
+        font-size: 30px;
+    }
+    .tbj__contenedor p {
+        font-size: 14px;
+    }
+    .btn {
+        left: 5rem;
+        bottom: 3rem;
     }
     header .logo {
         position: relative;
@@ -73,12 +117,12 @@
         padding-top: 0.5rem;
         margin-left: 0;
     }
-    .whatsapp {
+    /* .whatsapp {
         padding: 0;
         position: relative;
         top: 4.3rem;
         left: 0.5rem;
-    }
+    } */
     .final__derechos {
         text-align: end;
     }
