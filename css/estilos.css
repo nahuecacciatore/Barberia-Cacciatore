@@ -5,22 +5,22 @@
  */
 @font-face {
   font-family: Mystery Quest;
-  src: url(css/Generica.otf);
+  src: url(Generica.otf);
 }
 
 @font-face {
   font-family: Austein;
-  src: url(css/Austein.otf);
+  src: url(Austein.otf);
 }
 
 @font-face {
   font-family: Buttershine;
-  src: url(css/BUTTERSHINE\SCRIPT.ttf);
+  src: url(BUTTERSHINE\SCRIPT.ttf);
 }
 
 @font-face {
   font-family: Caviar;
-  src: url(css/CaviarDreams.ttf);
+  src: url(CaviarDreams.ttf);
 }
 
 header {
@@ -337,7 +337,14 @@ body {
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
-  grid-template-areas: "ele1 ele2 .   " "ele1 ele2 ele3" "ele1 ele4 ele3" ".    ele4 ele3" "ele5 ele5 ele5" "ele5 ele5 ele5" "ele6 ele6 ele6" "ele6 ele6 ele6";
+  grid-template-areas: "ele1 ele2 .   "
+ "ele1 ele2 ele3"
+ "ele1 ele4 ele3"
+ ".    ele4 ele3"
+ "ele5 ele5 ele5"
+ "ele5 ele5 ele5"
+ "ele6 ele6 ele6"
+ "ele6 ele6 ele6";
 }
 
 .cabello {
@@ -770,6 +777,9 @@ body {
   }
   .cursos {
     background-image: none;
+  }
+  .titulo__experiencia {
+    font-size: 100px;
   }
   /* ------------------------------------------- INDEX ---------------------------------------------- */
   /* ------------------------------------------- SERVICIOS ---------------------------------------------- */
