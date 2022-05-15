@@ -131,8 +131,41 @@ header {
     margin: 2rem;
     height: 500px;
 }
+.experiencia h4 {
+    font-size: 130px;
+    font-style: italic;
+}
+.experiencia p {
+    font-size: 20px;
+}
 .img-fluid {
     /* position: absolute; */
+}
+.tbj {
+    width: 100%;
+}
+.tbj__div {
+    display: flex;
+    padding: 4rem;
+}
+.tbj__contenedor {
+    margin-right: 2rem;
+}
+.tbj__contenedor h3 {
+    font-size: 80px;
+}
+.tbj__contenedor p {
+    font-size: 20px;
+}
+.carrusel {
+    height: auto;
+    width: 60%;
+    margin: 100px auto;
+}
+.btn {
+    position: relative;
+    left: 45rem;
+    bottom: 4rem;
 }
 
 .paginas {
