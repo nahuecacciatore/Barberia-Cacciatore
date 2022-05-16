@@ -301,13 +301,6 @@ body {
   margin: 100px auto;
 }
 
-.btn {
-  position: relative;
-  left: 45rem;
-  bottom: 4rem;
-  box-shadow: 7px 13px 37px #000;
-}
-
 .whatsapp1 {
   display: inline-block;
   position: fixed;
@@ -694,6 +687,12 @@ body {
   margin-bottom: 20px;
 }
 
+.btn {
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+
 .jam-write {
   font-size: 40px;
 }
@@ -798,10 +797,6 @@ body {
   }
   .tbj__contenedor {
     text-align: center;
-  }
-  .btn {
-    left: 20rem;
-    bottom: 4rem;
   }
   /* ------------------------------------------- INDEX ---------------------------------------------- */
   /* ------------------------------------------- SERVICIOS ---------------------------------------------- */
@@ -956,10 +951,6 @@ body {
   }
   .tbj__contenedor p {
     font-size: 14px;
-  }
-  .btn {
-    left: 7rem;
-    bottom: 3rem;
   }
   header .logo {
     position: relative;
