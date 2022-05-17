@@ -573,6 +573,11 @@ body {
   text-decoration: underline;
 }
 
+.ubicacion {
+  display: flex;
+  flex-direction: row;
+}
+
 .section__reserva {
   color: white;
   background-color: rgba(35, 38, 41, 0.7);
@@ -1151,6 +1156,9 @@ body {
     margin: auto;
     width: 16rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .input-group {
     flex-direction: column;
