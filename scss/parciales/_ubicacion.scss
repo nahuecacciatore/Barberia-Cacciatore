@@ -22,13 +22,17 @@
     font-style: italic;
     text-decoration: underline;
 }
+.div__ubicacion {
+    text-align: center;
+    margin: auto;
+}
 .ubicacion {
     display: flex;
     flex-direction: row;
 }
 .ubicacion__titulo{
     font-family: Austein;
-    font-size: 120px;
+    font-size: 100px;
     text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
      color: #D29D61;
 }
