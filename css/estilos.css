@@ -5,22 +5,22 @@
  */
 @font-face {
   font-family: Mystery Quest;
-  src: url(Generica.otf);
+  src: url(../../css/Generica.otf);
 }
 
 @font-face {
   font-family: Austein;
-  src: url(Austein.otf);
+  src: url(../../css/Austein.otf);
 }
 
 @font-face {
   font-family: Buttershine;
-  src: url(BUTTERSHINE\SCRIPT.ttf);
+  src: url(../../css/BUTTERSHINE\SCRIPT.ttf);
 }
 
 @font-face {
   font-family: Caviar;
-  src: url(CaviarDreams.ttf);
+  src: url(../../css/CaviarDreams.ttf);
 }
 
 header {
@@ -576,6 +576,13 @@ body {
 .ubicacion {
   display: flex;
   flex-direction: row;
+}
+
+.ubicacion__titulo {
+  font-family: Austein;
+  font-size: 120px;
+  text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
+  color: #D29D61;
 }
 
 .section__reserva {
