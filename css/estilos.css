@@ -186,7 +186,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  bottom: 2rem;
+  bottom: 4rem;
   right: 2rem;
   z-index: 10;
 }
@@ -307,7 +307,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  bottom: 2rem;
+  bottom: 4rem;
   right: 2rem;
   z-index: 10;
 }
@@ -436,8 +436,8 @@ body {
   text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
   color: #D29D61;
   position: relative;
-  bottom: 530px;
-  left: 26rem;
+  bottom: 510px;
+  left: 22rem;
 }
 
 .producto__oferta3 {
@@ -446,7 +446,7 @@ body {
   text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
   color: #D29D61;
   position: relative;
-  bottom: 620px;
+  bottom: 610px;
   left: 50rem;
 }
 
@@ -525,7 +525,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  bottom: 2rem;
+  bottom: 4rem;
   right: 2rem;
   z-index: 10;
 }
@@ -552,7 +552,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  bottom: 2rem;
+  bottom: 4rem;
   right: 2rem;
   z-index: 10;
 }
@@ -612,7 +612,7 @@ body {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  bottom: 2rem;
+  bottom: 4rem;
   right: 2rem;
   z-index: 10;
 }
