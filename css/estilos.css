@@ -31,9 +31,13 @@ header {
   width: 100%;
   z-index: 10;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   padding: 1rem;
+}
+
+.container-fluid {
+  font-weight: bold;
 }
 
 .navbar-brand {
@@ -41,7 +45,6 @@ header {
   border: 5px solid #7a6a53;
   border-radius: 10px;
   height: 70px;
-  margin-left: 80px;
 }
 
 .navbar-toggler {
