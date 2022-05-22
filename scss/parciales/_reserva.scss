@@ -1,3 +1,15 @@
+$estilos: (
+    color: #d29d61,
+    borde: 3px solid rgb(122, 106, 83),
+    fuente: 20px,
+    padding: 2rem,
+    redondeado: 10px,
+    ancho: 15rem,
+    alineado: center,
+    sombra: 7px 13px 37px #000
+);
+
+
 .section__reserva {
     color: white;
     background-color: rgba(35, 38, 41, 0.7);
@@ -55,36 +67,36 @@
     margin-bottom: 2rem;
 }
 .botones__1 {
-    background-color: #d29d61 ;
-    border: 3px solid rgb(122, 106, 83) ;
-    font-size: 20px;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 15rem;
-    text-align: center;
-    box-shadow: 7px 13px 37px #000;
+    background-color: map-get($estilos, color);
+    border: map-get($estilos, borde);
+    font-size: map-get($estilos, fuente);
+    padding: map-get($estilos, padding);
+    border-radius: map-get($estilos, redondeado);
+    width: map-get($estilos, ancho);
+    text-align: map-get($estilos, alineado);
+    box-shadow: map-get($estilos, sombra);
     
 }
 .botones__2 {
-    background-color: #d29d61 ;
-    border: 3px solid rgb(122, 106, 83) ;
-    font-size: 20px;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 15rem;
-    text-align: center;
-    box-shadow: 7px 13px 37px #000;
+    background-color: map-get($estilos, color);
+    border: map-get($estilos, borde);
+    font-size: map-get($estilos, fuente);
+    padding: map-get($estilos, padding);
+    border-radius: map-get($estilos, redondeado);
+    width: map-get($estilos, ancho);
+    text-align: map-get($estilos, alineado);
+    box-shadow: map-get($estilos, sombra);
     
 }
 .botones__3 {
-    background-color: #d29d61 ;
-    border: 3px solid rgb(122, 106, 83) ;
-    font-size: 20px;
-    padding: 2rem;
-    border-radius: 10px;
-    width: 20rem;
-    text-align: center;
-    box-shadow: 7px 13px 37px #000;
+    background-color: map-get($estilos, color);
+    border: map-get($estilos, borde);
+    font-size: map-get($estilos, fuente);
+    padding: map-get($estilos, padding);
+    border-radius: map-get($estilos, redondeado);
+    width: map-get($estilos, ancho);
+    text-align: map-get($estilos, alineado);
+    box-shadow: map-get($estilos, sombra);
     
 }
 .formulario {

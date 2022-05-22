@@ -1,0 +1,11 @@
+Para esta entrega, utilice un "map-get" que le dara valores a 
+las clases de mi pagina "Reserva".
+el mapa se encuentra ubicado en la parte superior de la hoja
+"_reserva.scss"
+y el mismo lo utilice para las clases
+".botones__1"
+".botones__2"
+".botones__3"
+
+Con respecto a SEO, en el head de cada una de mis paginas le agregue su respectivo meta, con keyword
+y una breve descripcion de lo que trata cada una de las paginas
