@@ -177,6 +177,10 @@ body {
   font-size: 15px;
 }
 
+.collapse {
+  justify-content: flex-end;
+}
+
 .header__open {
   color: white;
   text-decoration: none;
@@ -928,6 +932,7 @@ body {
   }
   .informacion {
     font-size: 80px;
+    margin-top: 4rem;
   }
   .cursos__titulo {
     font-size: 60px;
@@ -1006,7 +1011,7 @@ body {
   .presentacion {
     position: relative;
     bottom: 3rem;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(35, 38, 41, 0.7);
     margin-top: 0.5rem;
   }
   .presentacion__titulo {
@@ -1014,7 +1019,7 @@ body {
   }
   .presentacion__subtitulo {
     font-size: 15px;
-    margin-bottom: 13rem;
+    padding-bottom: 1rem;
   }
   .presentacion__parrafo {
     font-size: 15px;
