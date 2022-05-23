@@ -222,6 +222,7 @@ body {
   font-size: 150px;
   text-align: center;
   background-color: rgba(48, 57, 62, 0.911);
+  margin-bottom: 0;
 }
 
 .cursos__div {
