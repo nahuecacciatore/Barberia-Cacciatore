@@ -331,43 +331,37 @@ body {
 .section__servicios--titulo {
   font-size: 100px;
   font-style: italic;
+  text-decoration: underline;
 }
 
-.videoservicios {
-  width: 60%;
-  margin-left: auto;
-  margin-right: 2rem;
+.service .content {
+  padding: 32px;
 }
 
-.section__servicios--titulo {
-  -webkit-animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in-fwd 0.6s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+.service p {
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 
-@-webkit-keyframes fade-in-fwd {
-  0% {
-    -webkit-transform: translateZ(-80px);
-    transform: translateZ(-80px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
+.intro {
+  margin-bottom: 60px;
 }
 
-@keyframes fade-in-fwd {
-  0% {
-    -webkit-transform: translateZ(-80px);
-    transform: translateZ(-80px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-    opacity: 1;
-  }
+.intro h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 80px;
+  text-shadow: 8px 5px 1px rgba(0, 0, 0, 0.349);
+}
+
+.intro h6 {
+  font-size: 25px;
+  color: #d29d61;
+}
+
+.intro p {
+  max-width: 500px;
+  margin: auto;
 }
 
 .grid {
@@ -1195,9 +1189,7 @@ body {
   }
   .whatsapp1 {
     padding: 0;
-    position: relative;
-    left: 0;
-    top: 34.5rem;
+    position: fixed;
   }
   .section__servicios {
     top: 8rem;
