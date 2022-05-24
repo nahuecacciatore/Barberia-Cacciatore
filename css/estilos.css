@@ -319,20 +319,48 @@ body {
   z-index: 10;
 }
 
-.section__servicios {
-  color: white;
-  background-color: rgba(35, 38, 41, 0.7);
-  text-align: center;
-  position: relative;
-  bottom: 0px;
-  top: 50px;
-  padding: 50px;
+/* .section__servicios {
+    color: white;
+    background-color: rgba(35, 38, 41, 0.7);
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    top: 50px;
+    padding: 50px;
+}
+.section__servicios--titulo {
+    font-size: 100px;
+    font-style: italic;
+    text-decoration: underline;
+} */
+.service .content {
+  padding: 32px;
 }
 
-.section__servicios--titulo {
-  font-size: 100px;
-  font-style: italic;
-  text-decoration: underline;
+.service p {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.intro {
+  margin-bottom: 60px;
+}
+
+.intro h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 80px;
+  text-shadow: 8px 5px 1px rgba(0, 0, 0, 0.349);
+}
+
+.intro h6 {
+  font-size: 25px;
+  color: #d29d61;
+}
+
+.intro p {
+  max-width: 500px;
+  margin: auto;
 }
 
 .grid {
@@ -1160,9 +1188,7 @@ body {
   }
   .whatsapp1 {
     padding: 0;
-    position: relative;
-    left: 0;
-    top: 34.5rem;
+    position: fixed;
   }
   .section__servicios {
     top: 8rem;
