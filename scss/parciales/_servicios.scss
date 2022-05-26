@@ -22,13 +22,22 @@
 }
 
 
-
+.servicios {
+    margin-top: 9rem;
+}
 .service .content {
     padding: 32px;
 }
 .service p {
     margin-top: 18px;
     margin-bottom: 18px;
+}
+.service img {
+    box-shadow: 7px 13px 37px #000;
+    transition: transform 1.1s;
+}
+.service img:hover {   
+    transform: scale(1.03);
 }
 .intro {
     margin-bottom: 60px;

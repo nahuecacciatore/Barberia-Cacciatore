@@ -1,4 +1,4 @@
-.grid {
+/* .grid {
     position: relative;
     border: 2px solid #555;
     margin: 2rem;
@@ -198,4 +198,67 @@
     font-size: 100px;
     font-style: italic;
     text-decoration: underline;
+}
+ */
+/* ---------------NUEVAS CLASES-------------------------------------*/
+.productos {
+    margin-top: 9rem;
+}
+.card {
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 20px;
+    transition: transform .3s;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.text1{
+    font-size: 20px;
+    color: #cbcbcb;
+}
+
+.info {
+    line-height: 17px;
+    font-weight: 500;
+}
+.jam-star-f {
+    color: #fbc02d;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.claymore {
+    background: #d29d61;
+}
+.pomade {
+    background: #d29d61;
+}
+.superdry {
+    background: #d29d61;
+}
+.combo {
+    background: #d29d61;
+}
+.beard-oil {
+    background: #d29d61;
+}
+.texas-beard {
+    background: #d29d61;
+}
+.shampoo {
+    background: #d29d61;
+}
+.cream {
+    background: #d29d61;
+}
+.brush {
+    background: #d29d61;
 }
