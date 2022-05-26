@@ -1,206 +1,5 @@
-/* .grid {
-    position: relative;
-    border: 2px solid #555;
-    margin: 2rem;
-    padding: 1rem;
-    min-height: 500px;
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px 200px;
-    grid-template-areas: 
-        "ele1 ele2 .   "
-        "ele1 ele2 ele3"
-        "ele1 ele4 ele3"
-        ".    ele4 ele3"
-        "ele5 ele5 ele5"
-        "ele5 ele5 ele5"
-        "ele6 ele6 ele6"
-        "ele6 ele6 ele6"
-    ;
-}
-.cabello {
-    font-size: 200px;
-    position: relative;
-    right: 67rem;
-    bottom: 150px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    font-family: Austein;
-    color: #D29D61;
-}
-.producto__titulo {
-    font-family: Buttershine;
-    font-size: 100px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    color: #D29D61;
-    font-size: 100px;
-    margin-top: 100px;
-}
-.producto__titulo--2 {
-    font-family: Buttershine;
-    font-size: 100px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    color: #D29D61;
-    font-size: 100px; 
-    text-align: end;
-}
-.producto__parrafo {
-    font-family: Caviar;
-    font-size: 25px;
-}
-.producto__parrafo--2 {
-    font-family: Caviar;
-    font-size: 25px;
-    text-align: right;
-}
 
-.grid__hijo1 {
-    grid-area: ele1;
-}
-.grid__hijo1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-.grid__hijo2 {
-    grid-area: ele2;
-}
-.grid__hijo3 {
-    grid-area: ele3;
-}
-.grid__hijo3 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-.grid__hijo4 {
-    grid-area: ele4;
-}
-.grid__hijo5 {
-    grid-area: ele5;
-}
-.ofertas {
-    font-size: 150px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    font-family: Austein;
-    color: #D29D61; 
-    position: relative;
-    left: 450px;
-    
-}
-.producto__oferta {
-    font-family: Buttershine;
-    font-size: 70px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    color: #D29D61;
-    position: relative; 
-    bottom: 49px;
-    left: 39rem; 
-}
-.producto__oferta2 {
-    font-family: Buttershine;
-    font-size: 70px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    color: #D29D61;
-    position: relative;
-    bottom: 510px;
-    left: 22rem; 
-}
-.producto__oferta3 {
-    font-family: Buttershine;
-    font-size: 70px;
-    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-    color: #D29D61;
-    position: relative; 
-    bottom: 610px;
-    left: 50rem;    
-}
-.producto__div {
-    display: inline-block;
-    position: relative;
-    bottom: 30rem;
-    left: 60rem;
-    background-color: #d29d61 ;
-    margin: 2px;
-    border: 3px solid rgb(122, 106, 83) ;
-    padding: 10px;
-    width: 20%;
-    box-shadow: 7px 13px 37px #000;
-}
-.producto__div p {
-    font-family: Caviar;
-    text-align: center;
-    font-size: 20px;
-}
-.producto__div--2 {
-    display: inline-block;
-    position: relative;
-    bottom: 25rem;
-    left: 15rem;
-    background-color: #d29d61 ;
-    margin: 2px;
-    border: 3px solid rgb(122, 106, 83) ;
-    padding: 10px;
-    width: 15%;
-    box-shadow: 7px 13px 37px #000;
-}
-.producto__div--2 p {
-    font-family: Caviar;
-    text-align: center;
-    font-size: 20px;
-}
-.texas {
-    position: absolute;
-    bottom: 250px;
-    right: 350px;
-    height: 13%;
-    transform: rotate(20deg);
-}
-
-.grid__hijo5 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;   
-}
-.grid__hijo6 {
-    grid-area: ele6;
-}
-.grid__hijo6 img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;  
-}
-.victory {
-    height: 8rem;
-    margin: 0 auto;
-    margin-top: 50px;
-    display: block;
-}
-.whatsapp2 {
-    display: inline-block;
-    position: fixed;
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    bottom: 4rem;
-    right: 2rem;
-    z-index: 10;
-}
-.section__productos {
-    color: white;
-    background-color: rgba(35, 38, 41, 0.7);
-    text-align: center;
-    position: relative;
-    bottom: 0px;
-    top: 50px;
-    padding: 50px;
-}
-.section__productos--titulo {
-    font-size: 100px;
-    font-style: italic;
-    text-decoration: underline;
-}
- */
-/* ---------------NUEVAS CLASES-------------------------------------*/
+ /* ---------------NUEVAS CLASES-------------------------------------*/
 .productos {
     margin-top: 9rem;
 }
@@ -237,28 +36,37 @@
 
 .claymore {
     background: #d29d61;
+    cursor: pointer;
 }
 .pomade {
     background: #d29d61;
+    cursor: pointer;
 }
 .superdry {
     background: #d29d61;
+    cursor: pointer;
 }
 .combo {
     background: #d29d61;
+    cursor: pointer;
 }
 .beard-oil {
     background: #d29d61;
+    cursor: pointer;
 }
 .texas-beard {
     background: #d29d61;
+    cursor: pointer;
 }
 .shampoo {
     background: #d29d61;
+    cursor: pointer;
 }
 .cream {
     background: #d29d61;
+    cursor: pointer;
 }
 .brush {
     background: #d29d61;
+    cursor: pointer;
 }
