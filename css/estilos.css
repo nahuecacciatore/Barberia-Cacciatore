@@ -459,48 +459,13 @@ body {
   cursor: pointer;
 }
 
-.whatsapp3 {
-  display: inline-block;
-  position: fixed;
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  bottom: 4rem;
-  right: 2rem;
-  z-index: 10;
+.map {
+  max-width: 700px;
+  border: 2px solid #7a6a53;
 }
 
-.section__ubicacion {
-  color: white;
-  background-color: rgba(35, 38, 41, 0.7);
-  text-align: center;
-  position: relative;
-  bottom: 0px;
-  top: 50px;
-  padding: 50px;
-}
-
-.section__ubicacion--titulo {
-  font-size: 100px;
-  font-style: italic;
-  text-decoration: underline;
-}
-
-.div__ubicacion {
-  text-align: center;
-  margin: auto;
-}
-
-.ubicacion {
-  display: flex;
-  flex-direction: row;
-}
-
-.ubicacion__titulo {
-  font-family: Austein;
-  font-size: 100px;
-  text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
-  color: #D29D61;
+.googlemap {
+  width: 100%;
 }
 
 .section__reserva {
