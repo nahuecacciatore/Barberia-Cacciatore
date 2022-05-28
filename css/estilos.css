@@ -523,10 +523,15 @@ body {
   margin: 0px;
 }
 
-.container {
-  width: 90%;
+.containerform {
+  width: 60%;
   margin: auto;
   overflow: hidden;
+  background-color: #0f161b;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  border-radius: 10px;
+  box-shadow: 7px 13px 37px #000;
 }
 
 #contact-section {
@@ -630,18 +635,6 @@ textarea::placeholder {
   border: 1px sold #fff;
   color: #fff;
   cursor: pointer;
-}
-
-/* ------------ mediaquery --------------*/
-@media (max-width: 768px) {
-  #contact-section .contact-form {
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
-  #contact-section .submit {
-    width: 60%;
-  }
 }
 
 .final {
