@@ -459,60 +459,6 @@ body {
   cursor: pointer;
 }
 
-.section__reserva {
-  color: white;
-  background-color: rgba(35, 38, 41, 0.7);
-  text-align: center;
-  position: relative;
-  bottom: 0px;
-  top: 50px;
-  padding: 50px;
-}
-
-.section__reserva--titulo {
-  font-size: 100px;
-  font-style: italic;
-  text-decoration: underline;
-}
-
-.whatsapp4 {
-  display: inline-block;
-  position: fixed;
-  color: white;
-  text-decoration: none;
-  padding: 0.5rem 1rem;
-  bottom: 4rem;
-  right: 2rem;
-  z-index: 10;
-}
-
-.encabezado {
-  display: flex;
-  justify-content: space-around;
-  font-size: 60px;
-}
-
-.encabezado__reserva1 {
-  background-color: #d29d61;
-  border: 3px solid #7a6a53;
-  padding: 4rem;
-  margin-top: 6rem;
-}
-
-.encabezado__reserva2 {
-  background-color: #d29d61;
-  border: 3px solid #7a6a53;
-  padding: 4rem;
-  margin-top: 6rem;
-}
-
-.encabezado__reserva3 {
-  background-color: #d29d61;
-  border: 3px solid #7a6a53;
-  padding: 4rem;
-  margin-top: 6rem;
-}
-
 .botones {
   display: flex;
   justify-content: space-around;
@@ -553,26 +499,6 @@ body {
   box-shadow: 7px 13px 37px #000;
 }
 
-.formulario {
-  background-color: #d29d61;
-  border: 5px solid #7a6a53;
-  border-radius: 10px;
-  padding: 30px;
-  margin: auto;
-  margin-bottom: 2rem;
-  width: 400px;
-  box-shadow: 7px 13px 37px #000;
-}
-
-.formulario h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
 .btn {
   position: relative;
   right: 0;
@@ -589,6 +515,136 @@ body {
 
 .jam-check {
   font-size: 40px;
+}
+
+/* ----------------- NUEVAS CLASES ------------------------ */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#contact-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9), url(../../Imagenes/escritorio.jpg));
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+#contact-section .container h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #eeebeb;
+}
+
+#contact-section .container p {
+  text-align: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.contact-form i {
+  font-size: 22px;
+  padding: 3%;
+  background-color: none;
+  margin: 2%;
+  border-radius: 80%;
+  cursor: pointer;
+  border: 2px solid #bebebe;
+  color: #bebebe;
+}
+
+.contact-form i:hover {
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.contact-form {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.form-info {
+  font-size: 16px;
+  font-style: italic;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: rgba(136, 133, 133, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+textarea {
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: rgba(136, 133, 133, 0.5);
+  color: #fff;
+  border: none;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #fff;
+}
+
+.submit {
+  width: 40%;
+  background: none;
+  padding: 4px;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-left: 3%;
+  border: 2px solid #bebebe;
+  color: #bebebe;
+}
+
+.submit:hover {
+  border: 1px sold #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ------------ mediaquery --------------*/
+@media (max-width: 768px) {
+  #contact-section .contact-form {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #contact-section .submit {
+    width: 60%;
+  }
 }
 
 .final {

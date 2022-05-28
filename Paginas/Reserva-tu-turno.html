@@ -58,14 +58,20 @@
 
 
     <main>
-        <section class="section">
-            <section class="section__reserva">
-                <h2 class="section__reserva--titulo">Reserva tu turno</h2>
-                <p>Llego el momento de ponerle dia y hora a tu
-                    cambio de look
+
+        <div class="container text-center">
+            <div class="row productos">
+              <div class="col-12 intro">
+                <h6>¡Llego el momento de agendar tu cambio de look!</h6>
+                <h2>Ubicacion</h2>
+                <p>
+                  Veni a conocer el lugar donde ocurre la magia.
+                  A solo metros de la estacion de Haedo, y con cercania a la Avenida Rivadavia.
+                  Multiples lineas de colectivo circulando por la zona pueden ser tu transporte
+                  hacia tu proximo corte.      
                 </p>
-            </section>
-        </section>
+              </div>
+            </div>
 
         <section class="botones">
             
@@ -88,7 +94,7 @@
                 </p>
             </div>
         </section>
-        <section class="formulario">
+<!--         <section class="formulario"> -->
             <!-- <form class="section__form" action="">
                 <div>
                     <label for="nombre">Nombre Completo</label>
@@ -127,7 +133,7 @@
     
                 <Button>¡Reservar!</Button>
             </form> -->
-            <h2>¡Hora de reservar!</h2>
+<!--             <h2>¡Hora de reservar!</h2>
             <div class="input-group">
                 <span class="input-group-text">Nombre y apellido</span>
                 <input type="text" placeholder="Nombre" aria-label="First name" class="form-control ">
@@ -143,6 +149,27 @@
             </div>
             <div class="d-grid gap-2 col-6 mx-auto">
                 <button class="btn btn-primary" type="button">¡Reservar!</button>
+            </div>
+        </section> -->
+   
+        <!-- formulario -->
+        <section id="contact-section">
+            <div class="container">
+                <h2>¡Momento de reservar!</h2>
+                <p>Completa nuestro formulario para agendar tu proximo turno</p>
+                <div class="contact-form">
+                    <!-- segundo grid -->
+                    <div class="form">
+                        <form>
+                            <input type="text" placeholder="Inserte su nombre" required>
+                            <input type="text" placeholder="Apellido" required>
+                            <input type="email" placeholder="Inserte su email" required>
+                            <input type="number" placeholder="Inserte su telefono" required>
+                            <textarea name="message" placeholder="Indique fecha y hora deseada (en caso de no estar disponible, nos comunicaremos con vos para ofrecerte otros dias y horarios)" rows="5" required></textarea>
+                            <button class="submit">¡Reservar!</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
