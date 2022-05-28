@@ -264,3 +264,17 @@
 .tbj__div {
     margin-bottom: 5rem;
 }
+
+/* ------------ mediaquery formulario--------------*/
+
+@media (max-width: 768px) {
+    #contact-section .contact-form{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #contact-section .submit {
+        width: 60%;
+    }
+}
