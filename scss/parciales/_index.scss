@@ -37,16 +37,6 @@
     display: none;
 }
 
-.whatsapp {
-    display: inline-block;
-    position: fixed;
-    color: white;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    bottom: 4rem;
-    right: 2rem;
-    z-index: 10;
-}
 .informacion {
     font-size: 200px;
     text-shadow: 10px 10px 1px rgba(0, 0, 0, 0.349);
@@ -111,9 +101,7 @@
 .experiencia p {
     font-size: 20px;
 }
-.img-fluid {
-    /* position: absolute; */
-}
+
 .tbj {
     width: 100%;
 }
@@ -132,9 +120,4 @@
 }
 .tbj__div img {
     box-shadow: 7px 13px 37px #000;
-}
-.carrusel {
-    height: auto;
-    width: 60%;
-    margin: 100px auto;
 }

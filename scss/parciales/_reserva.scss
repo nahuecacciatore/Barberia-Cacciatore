@@ -13,7 +13,7 @@ $estilos: (
 .botones {
     display: flex;
     justify-content: space-around;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .botones__1 {
@@ -83,6 +83,7 @@ body {
     height: 100%;
     width: 100%;
     padding-bottom: 2%;
+    margin-bottom: 2rem;
 }
 #contact-section .container h2 {
     text-align: center;
